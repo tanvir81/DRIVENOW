@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "name": "McLaren 570S",
+    "description": "The ultimate sports series for the open road.",
+    "price": 850,
+    "image": "/2016_mclaren_570s_gt4-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "2 Bags"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "2",
+    "name": "Ferrari 458 Italia",
+    "description": "Pure Italian performance and style.",
+    "price": 900,
+    "image": "/ferrari_458_italia_blue-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "3",
+    "name": "Ford GT Mk II",
+    "description": "Le Mans winning heritage for the street.",
+    "price": 1200,
+    "image": "/2019_ford_gt_mk_ii_supercar-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "4",
+    "name": "Ferrari 488 Red",
+    "description": "Iconic red masterpiece.",
+    "price": 950,
+    "image": "/2018_ferrari_red_car-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "2 Bags"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "5",
+    "name": "McLaren P1",
+    "description": "Hybrid hypercar performance.",
+    "price": 2000,
+    "image": "/mclaren_p1_3-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "6",
+    "name": "Fittipaldi EF7",
+    "description": "Vision Gran Turismo concept brought to life.",
+    "price": 1500,
+    "image": "/fittipaldi_ef7_vision_gran_turismo_by_pininfarina_sports_car-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "0 Bags"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "7",
+    "name": "Ford GT Road Edition",
+    "description": "Track ready, street legal.",
+    "price": 1100,
+    "image": "/2019_ford_gt_mk_ii_sports_car_road-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "8",
+    "name": "Ferrari 458 White",
+    "description": "Elegant power in pristine white.",
+    "price": 920,
+    "image": "/ferrari_458_white_car-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "2 Bags"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "9",
+    "name": "Senna GTR",
+    "description": "Named after the legend himself.",
+    "price": 2500,
+    "image": "/formula_1_senna_and_mclaren_senna-wallpaper-1920x1080.jpg",
+    "features": ["1 Seat", "Auto", "0 Bags"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "10",
+    "name": "Lamborghini Huracan",
+    "description": "V10 engine with aggressive styling.",
+    "price": 950,
+    "image": "/4014.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "11",
+    "name": "Mercedes AMG GT",
+    "description": "German engineering at its finest.",
+    "price": 800,
+    "image": "/patrik-storm-alstra-pictures-eDyallVm_8A-unsplash.jpg",
+    "features": ["2 Seats", "Auto", "2 Bags"],
+    "available": true,
+    "category": "Sports"
+  },
+  {
+    "id": "12",
+    "name": "Porsche 911 GT3",
+    "description": "Optimized for the track.",
+    "price": 1000,
+    "image": "/florian-schneider-799KfBloSFQ-unsplash.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Sports"
+  },
+  {
+    "id": "13",
+    "name": "Audi R8 Spyder",
+    "description": "Open top supercar experience.",
+    "price": 850,
+    "image": "/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "14",
+    "name": "McLaren 720S",
+    "description": "Super lighter, super faster.",
+    "price": 1100,
+    "image": "/2016_mclaren_570s_gt4-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "2 Bags"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "15",
+    "name": "Ferrari F8 Tributo",
+    "description": "A tribute to the V8 engine.",
+    "price": 1250,
+    "image": "/ferrari_458_italia_blue-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "16",
+    "name": "Ford Mustang Shelby",
+    "description": "American muscle icon.",
+    "price": 400,
+    "image": "/2019_ford_gt_mk_ii_supercar-wallpaper-1920x1080.jpg",
+    "features": ["4 Seats", "Man/Auto", "3 Bags"],
+    "available": true,
+    "category": "Sports"
+  },
+  {
+    "id": "17",
+    "name": "Bugatti Chiron",
+    "description": "The pinnacle of automotive engineering.",
+    "price": 5000,
+    "image": "/mclaren_p1_3-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Hypercar"
+  },
+  {
+    "id": "18",
+    "name": "Aston Martin DB11",
+    "description": "Grand tourer capability.",
+    "price": 900,
+    "image": "/fittipaldi_ef7_vision_gran_turismo_by_pininfarina_sports_car-wallpaper-1920x1080.jpg",
+    "features": ["4 Seats", "Auto", "2 Bags"],
+    "available": true,
+    "category": "Luxury"
+  }
+]
