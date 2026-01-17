@@ -16,7 +16,7 @@ export default function AboutSection() {
         </div>
         <div className="md:w-1/2 rounded-xl overflow-hidden shadow-2xl h-[400px] group">
           <img 
-            src="/2019_ford_gt_mk_ii_sports_car_road-wallpaper-1920x1080.jpg" 
+            src="/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg"
             alt="Redefining Car Rental" 
             className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" 
           />

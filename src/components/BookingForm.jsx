@@ -31,7 +31,7 @@ export default function BookingForm({ carId, carPrice, carName }) {
       });
       setStatus('success');
       setTimeout(() => {
-        router.push('/cars');
+        router.push('/bookings');
       }, 3000);
     } catch (error) {
       console.error(error);
@@ -48,7 +48,7 @@ export default function BookingForm({ carId, carPrice, carName }) {
         <h2 className="text-4xl font-extrabold text-white mb-4 uppercase italic tracking-tighter">Reservation Confirmed!</h2>
         <p className="text-gray-400 text-lg mb-8">
           Your <span className="text-primary font-bold">{carName}</span> is being prepared. <br />
-          Redirecting you to the fleet gallery...
+          Redirecting you to your bookings dashboard...
         </p>
         <div className="w-full bg-gray-800 h-1.5 rounded-full overflow-hidden">
           <div className="bg-primary h-full animate-[progress_3s_linear_forwards]"></div>

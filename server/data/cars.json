@@ -50,15 +50,16 @@
     "category": "Supercar"
   },
   {
-    "id": "6",
-    "name": "Fittipaldi EF7",
-    "description": "Vision Gran Turismo concept brought to life.",
-    "price": 1500,
-    "image": "/fittipaldi_ef7_vision_gran_turismo_by_pininfarina_sports_car-wallpaper-1920x1080.jpg",
-    "features": ["2 Seats", "Auto", "0 Bags"],
+    "id": "15",
+    "name": "Porsche Panamera Turbo",
+    "description": "Conquer the road in comfort.",
+    "price": 650,
+    "image": "/campbell-3ZUsNJhi_Ik-unsplash.jpg",
+    "features": ["4 Seats", "Auto", "3 Bags"],
     "available": true,
-    "category": "Supercar"
+    "category": "Luxury"
   },
+
   {
     "id": "7",
     "name": "Ford GT Road Edition",
@@ -121,6 +122,26 @@
   },
   {
     "id": "13",
+    "name": "Fittipaldi EF7",
+    "description": "Vision Gran Turismo concept brought to life.",
+    "price": 1500,
+    "image": "/fittipaldi_ef7_vision_gran_turismo_by_pininfarina_sports_car-wallpaper-1920x1080.jpg",
+    "features": ["2 Seats", "Auto", "0 Bags"],
+    "available": true,
+    "category": "Supercar"
+  },
+  {
+    "id": "14",
+    "name": "Ferrari SF90 Stradale",
+    "description": "The new hybrid benchmark.",
+    "price": 1800,
+    "image": "/2151850166.jpg",
+    "features": ["2 Seats", "Auto", "1 Bag"],
+    "available": true,
+    "category": "Hypercar"
+  },
+  {
+    "id": "15",
     "name": "Audi R8 Spyder",
     "description": "Open top supercar experience.",
     "price": 850,
@@ -130,53 +151,33 @@
     "category": "Supercar"
   },
   {
-    "id": "14",
-    "name": "McLaren 720S",
-    "description": "Super lighter, super faster.",
-    "price": 1100,
-    "image": "/2016_mclaren_570s_gt4-wallpaper-1920x1080.jpg",
-    "features": ["2 Seats", "Auto", "2 Bags"],
-    "available": true,
-    "category": "Supercar"
-  },
-  {
-    "id": "15",
-    "name": "Ferrari F8 Tributo",
-    "description": "A tribute to the V8 engine.",
-    "price": 1250,
-    "image": "/ferrari_458_italia_blue-wallpaper-1920x1080.jpg",
-    "features": ["2 Seats", "Auto", "1 Bag"],
-    "available": true,
-    "category": "Supercar"
-  },
-  {
     "id": "16",
-    "name": "Ford Mustang Shelby",
-    "description": "American muscle icon.",
-    "price": 400,
-    "image": "/2019_ford_gt_mk_ii_supercar-wallpaper-1920x1080.jpg",
-    "features": ["4 Seats", "Man/Auto", "3 Bags"],
+    "name": "BMW M2 Coupe",
+    "description": "Pure driving pleasure.",
+    "price": 450,
+    "image": "/hunter-newton-BgZFS8DPg0I-unsplash.jpg",
+    "features": ["4 Seats", "Auto", "2 Bags"],
     "available": true,
     "category": "Sports"
   },
   {
     "id": "17",
-    "name": "Bugatti Chiron",
-    "description": "The pinnacle of automotive engineering.",
-    "price": 5000,
-    "image": "/mclaren_p1_3-wallpaper-1920x1080.jpg",
-    "features": ["2 Seats", "Auto", "1 Bag"],
+    "name": "Ferrari SF90 Fiorano",
+    "description": "Track-focused hybrid powerhouse.",
+    "price": 1950,
+    "image": "/pexels-introspectivedsgn-12801149.jpg",
+    "features": ["2 Seats", "Auto", "0 Bags"],
     "available": true,
     "category": "Hypercar"
   },
   {
     "id": "18",
-    "name": "Aston Martin DB11",
-    "description": "Grand tourer capability.",
-    "price": 900,
-    "image": "/fittipaldi_ef7_vision_gran_turismo_by_pininfarina_sports_car-wallpaper-1920x1080.jpg",
-    "features": ["4 Seats", "Auto", "2 Bags"],
+    "name": "Jaguar F-Type",
+    "description": "British elegance and raw power.",
+    "price": 550,
+    "image": "/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg",
+    "features": ["2 Seats", "Auto", "2 Bags"],
     "available": true,
-    "category": "Luxury"
+    "category": "Sports"
   }
 ]
