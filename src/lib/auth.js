@@ -34,4 +34,5 @@ export const authOptions = {
     }
   },
   debug: true, // Enable debug messages in development
+  trustHost: true, // Required for Vercel deployment to trust the host header
 };

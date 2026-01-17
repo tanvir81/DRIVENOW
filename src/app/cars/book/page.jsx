@@ -1,11 +1,11 @@
 "use client";
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import api from '@/lib/api';
 import BookingForm from '@/components/BookingForm';
 import Link from 'next/link';
 
-export default function BookPage() {
+function BookContent() {
   const searchParams = useSearchParams();
   const carId = searchParams.get('carId');
   const [car, setCar] = useState(null);
@@ -94,7 +94,7 @@ export default function BookPage() {
                        <span className="text-gray-500 text-[10px] uppercase ml-2 tracking-widest">/ Day</span>
                     </div>
                   </div>
-
+                  
                   <div className="bg-white/5 p-6 rounded-3xl border border-white/5 mt-8 backdrop-blur-sm">
                     <p className="text-gray-400 text-sm leading-relaxed italic">
                       "Experience automotive perfection with the {car?.name}. Meticulously maintained and ready for your next adventure."
@@ -124,5 +124,17 @@ export default function BookPage() {
 
       </div>
     </div>
+  );
+}
+
+export default function BookPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+      </div>
+    }>
+      <BookContent />
+    </Suspense>
   );
 }

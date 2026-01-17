@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm:next:dev\" \"npm:server\"",
-    "next:dev": "next dev",
-    "server": "node server/server.js",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -13,8 +11,6 @@
   "dependencies": {
     "axios": "^1.13.2",
     "clsx": "^2.1.1",
-    "cors": "^2.8.5",
-    "express": "^5.2.1",
     "framer-motion": "^12.26.1",
     "gsap": "^3.14.2",
     "lucide-react": "^0.562.0",
@@ -31,7 +27,6 @@
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
-    "concurrently": "^9.2.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
     "fast-check": "^4.5.3",
