@@ -1,55 +1,77 @@
-# DriveNow
+# DriveNow Car Rental Platform
 
-DriveNow is a premium car rental application built with **Next.js 16 (App Router)** and **Express.js**. Experience a seamless booking process with a high-fidelity design.
+## Project Overview
 
-## Features
+DriveNow is a modern car rental platform built with **Next.js 16** and a suite of powerful libraries and tools. It features a high-performance, responsive UI styled with **Tailwind CSS v4**, compliant with the latest design standards. The application offers smooth, engaging animations powered by **Framer Motion** and **GSAP**, ensuring a premium user experience. Robust authentication is handled by **NextAuth.js**, while the backend is powered by a custom **Express.js** server for managing car inventory and booking data.
 
--   **Premium Landing Page**: 7+ sections showcasing the fleet, benefits, and testimonials.
--   **Authentication**: Secure login using NextAuth.js (Callbacks/Credentials).
-    -   **Mock Credentials**: Email: `user@drivenow.com`, Password: `123456`
--   **Car Listing**: Browse available cars fetched dynamically from the backend.
--   **Car Details**: View comprehensive details including price, description, and features.
--   **Booking System**: Protected booking route allowing authenticated users to reserve cars.
--   **Backend API**: Express.js server serving mock data (`cars.json`, `bookings.json`).
--   **Proxy Integration**: Next.js Route Handler proxies API requests to the Express backend.
+## Key Features
 
-## Technologies Used
+*   **Premium User Interface**: A visually stunning, responsive design with a focus on user experience, featuring dark/light aesthetics and seamless transitions.
+*   **Dynamic Car Listings**: Browse a curated selection of vehicles with detailed information, powered by server-side fetching for optimal performance.
+*   **Secure Authentication**: robust user login and registration system using NextAuth.js.
+*   **Booking System**: Intuitive booking flow allowing users to reserve their desired vehicles easily.
+*   **Interactive Elements**: Includes a Hero Carousel, featured car spotlights, and interactive testimonial sections.
+*   **Smooth Animations**: Enhanced visual storytelling with Framer Motion and GSAP animations.
+*   **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
 
--   **Frontend**: Next.js 16 (App Router), React, Tailwind CSS
--   **Backend**: Express.js, Node.js
--   **Auth**: NextAuth.js
--   **Tools**: Concurrently (to run both servers)
+## Technologies & Dependencies
 
-## Getting Started
+*   **Framework**: Next.js 16.1.1 (React 19.2.3)
+*   **Styling**: Tailwind CSS 4.0 (with @tailwindcss/postcss)
+*   **Animations**: Framer Motion 12.26.1, GSAP 3.14.2
+*   **Backend**: Express.js 5.2.1
+*   **Authentication**: NextAuth.js 4.24.13
+*   **HTTP Client**: Axios 1.13.2
+*   **Icons**: Lucide React 0.562.0
+*   **Notifications**: React Hot Toast, SweetAlert2
+*   **Carousel**: Swiper 12.0.3
+*   **Utilities**: clsx, tailwind-merge
 
-1.  **Install Dependencies**:
+## Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd drivenow
+    ```
+
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
 
-2.  **Run the Application**:
-    Start both the Next.js frontend and Express backend with a single command:
+3.  **Environment Configuration:**
+    Create a `.env` file in the root directory and configure your environment variables (e.g., NextAuth secret, database URIs if applicable).
+
+4.  **Start the development server:**
     ```bash
     npm run dev
     ```
-    -   Frontend: [http://localhost:3000](http://localhost:3000)
-    -   Backend: [http://localhost:4000](http://localhost:4000)
+    This command uses `concurrently` to start both the Next.js frontend and the Express backend server.
 
-## Project Structure
+## Usage
 
--   `app/`: Next.js App Router pages and API routes.
--   `components/`: Reusable UI components (Navbar, CarCard, etc.).
--   `lib/`: Utilities for API and Auth.
--   `server/`: Express.js backend code.
-    -   `routes/`: API route handlers.
-    -   `data/`: JSON files for mock database.
+*   Access the **Home Page** to view featured cars and promotional content.
+*   Navigate to the **Cars** section to explore the full fleet.
+*   Use the **Login** page to access personalized features.
+*   Select a car and proceed to **Book** it for your desired dates.
 
-## Routes
+## Folder Structure
 
--   `/` - Landing Page (Public)
--   `/cars` - Car Listing (Public)
--   `/cars/[id]` - Car Details (Public)
--   `/login` - Login Page (Public)
--   `/cars/book` - Booking Page (Protected)
+*   `/src/app` - Next.js App Router pages and layouts.
+*   `/src/components` - Reusable UI components (Hero, CarCard, Navbar, etc.).
+*   `/src/lib` - Utility functions and shared libraries.
+*   `/server` - Express.js backend server code and API routes.
+*   `/public` - Static assets like images and icons.
 
-Enjoy your drive with **DriveNow**!
+## Contributions
+
+| Name                | Role                | Contributions                       |
+| ------------------- | ------------------- | ----------------------------------- |
+| Tanvir Hussain Khan | Fullstack Developer | Entire project design & development |
+
+## 📞 Contact
+
+[![Live Site](https://img.shields.io/badge/🌐_Live_Site-000?style=for-the-badge)](https://drive-now-tanvir81.vercel.app/)
+[![Email](https://img.shields.io/badge/📧_Email-tkdarkshadow@gmail.com-000?style=for-the-badge)](mailto:tkdarkshadow@gmail.com)
+[![GitHub](https://img.shields.io/badge/💻_GitHub-tanvir81-000?style=for-the-badge)](https://github.com/tanvir81)
